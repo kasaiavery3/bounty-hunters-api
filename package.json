@@ -1,0 +1,28 @@
+
+{
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mongoose": "^6.0.7"
+  },
+  "name": "bounty-hunters-api",
+  "description": "API using Express and Mongoose",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha",
+    "start": "node --es-module-specifier-resolution=node app.js",
+    "nodemon": "nodemon --es-module-specifier-resolution=node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SEI802/bounty-hunters-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SEI802/bounty-hunters-api/issues"
+  },
+  "homepage": "https://github.com/SEI802/bounty-hunters-api#readme"
+}
